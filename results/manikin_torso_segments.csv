@@ -1,0 +1,25 @@
+set,posture,segment,clo,suspect_artifact
+Without cover,side,Chest,1.18,False
+Without cover,side,Abdomen,1.63,False
+Without cover,side,Back,1.32,False
+Cotton cover,side,Chest,1.18,False
+Cotton cover,side,Abdomen,1.92,False
+Cotton cover,side,Back,1.53,False
+Blanket,side,Chest,1.19,False
+Blanket,side,Abdomen,1.89,False
+Blanket,side,Back,1.51,False
+Summer duvet,side,Chest,1.18,False
+Summer duvet,side,Abdomen,2.15,False
+Summer duvet,side,Back,1.62,False
+Without cover,supine,Chest,0.9,False
+Without cover,supine,Abdomen,1.49,False
+Without cover,supine,Back,12.53,True
+Cotton cover,supine,Chest,0.9,False
+Cotton cover,supine,Abdomen,1.49,False
+Cotton cover,supine,Back,15.19,True
+Blanket,supine,Chest,0.9,False
+Blanket,supine,Abdomen,1.45,False
+Blanket,supine,Back,13.73,True
+Summer duvet,supine,Chest,0.86,False
+Summer duvet,supine,Abdomen,1.8,False
+Summer duvet,supine,Back,11.23,True

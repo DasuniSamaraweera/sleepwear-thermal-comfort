@@ -1,0 +1,32 @@
+climate,rows,buildings,matches_hot_humid_rule
+hot-summer mediterranean,21722,41,False
+humid subtropical,15257,61,True
+hot semi-arid,8642,101,False
+tropical wet savanna,8383,162,True
+tropical savanna,6980,55,True
+warm-summer mediterranean,5773,8,False
+mediterranean,4584,31,False
+temperate oceanic,4422,37,False
+monsoon-influenced hot-summer humid continental,3739,15,False
+warm-summer humid continental,2990,2,False
+tropical monsoon,2101,3,True
+hot desert,2083,16,False
+desert (hot arid),2011,5,False
+humid midlatitude,1944,5,False
+monsoon-influenced humid subtropical,1786,39,True
+temperate,1760,30,False
+tropical,1594,8,True
+west coast marine,1490,20,False
+wet equatorial,1414,9,True
+subtropical highland,1406,4,False
+cool-summer mediterranean,1406,2,False
+tropical rainforest,1350,15,True
+hot arid,1229,38,False
+semi arid high altitude,1072,2,False
+semi arid midlatitude,1066,2,False
+temperature marine,1065,7,False
+continental subarctic,869,23,False
+monsoon-influenced temperate oceanic,460,60,False
+cold semi-arid,242,6,False
+tropical dry savanna,152,1,False
+subtropical hot and dry,41,1,False

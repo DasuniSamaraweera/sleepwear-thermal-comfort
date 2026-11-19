@@ -1,0 +1,218 @@
+{
+  "building_5fold": {
+    "classifiers": {
+      "Logistic regression (linear)": [
+        {
+          "logisticregression__C": 0.03
+        },
+        {
+          "logisticregression__C": 0.1
+        },
+        {
+          "logisticregression__C": 0.1
+        },
+        {
+          "logisticregression__C": 1
+        },
+        {
+          "logisticregression__C": 0.03
+        }
+      ],
+      "Logistic regression (quadratic)": [
+        {
+          "logisticregression__C": 0.03
+        },
+        {
+          "logisticregression__C": 0.1
+        },
+        {
+          "logisticregression__C": 0.03
+        },
+        {
+          "logisticregression__C": 0.1
+        },
+        {
+          "logisticregression__C": 0.3
+        }
+      ],
+      "XGBoost": [
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        }
+      ]
+    },
+    "regressors": {
+      "Linear (ridge)": [
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        }
+      ],
+      "Quadratic (ridge)": [
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        }
+      ],
+      "XGBoost": [
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        }
+      ]
+    }
+  },
+  "leave_one_contributor_out": {
+    "classifiers": {
+      "Logistic regression (linear)": [
+        {
+          "logisticregression__C": 1
+        },
+        {
+          "logisticregression__C": 0.3
+        },
+        {
+          "logisticregression__C": 0.03
+        },
+        {
+          "logisticregression__C": 3
+        }
+      ],
+      "Logistic regression (quadratic)": [
+        {
+          "logisticregression__C": 1
+        },
+        {
+          "logisticregression__C": 0.3
+        },
+        {
+          "logisticregression__C": 0.03
+        },
+        {
+          "logisticregression__C": 0.1
+        }
+      ],
+      "XGBoost": [
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        }
+      ]
+    },
+    "regressors": {
+      "Linear (ridge)": [
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        }
+      ],
+      "Quadratic (ridge)": [
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        },
+        {
+          "ridge__alpha": 100
+        }
+      ],
+      "XGBoost": [
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        },
+        {
+          "max_depth": 2,
+          "n_estimators": 100
+        }
+      ]
+    }
+  }
+}

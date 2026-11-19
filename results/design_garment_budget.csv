@@ -1,0 +1,17 @@
+condition,set,posture,cover_increment,garment_clo_budget_pmv_iso,fits_training_garment_range
+no fan,Without cover,side,0.00,0.58,yes
+no fan,Cotton cover,side,0.45,0.13,yes
+no fan,Blanket,side,0.54,0.04,no garment fits
+no fan,Summer duvet,side,0.80,0.00,no garment fits
+no fan,Without cover,supine,0.00,0.58,yes
+no fan,Cotton cover,supine,0.47,0.11,yes
+no fan,Blanket,supine,0.56,0.02,no garment fits
+no fan,Summer duvet,supine,0.88,0.00,no garment fits
+fan,Without cover,side,0.00,0.83,yes
+fan,Cotton cover,side,0.45,0.38,yes
+fan,Blanket,side,0.54,0.29,yes
+fan,Summer duvet,side,0.80,0.03,no garment fits
+fan,Without cover,supine,0.00,0.83,yes
+fan,Cotton cover,supine,0.47,0.36,yes
+fan,Blanket,supine,0.56,0.27,yes
+fan,Summer duvet,supine,0.88,0.00,no garment fits

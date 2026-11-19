@@ -1,0 +1,41 @@
+set,posture,stat,m2K_per_W,clo
+Without cover,supine,Rtot1,0.181,1.17
+Without cover,supine,Rtot2,0.179,1.16
+Without cover,supine,Rtot3,0.183,1.18
+Without cover,supine,Rtot,0.181,1.17
+Without cover,supine,UR,0.005,0.03
+Cotton cover,supine,Rtot1,0.253,1.63
+Cotton cover,supine,Rtot2,0.248,1.6
+Cotton cover,supine,Rtot3,0.26,1.68
+Cotton cover,supine,Rtot,0.254,1.64
+Cotton cover,supine,UR,0.016,0.1
+Blanket,supine,Rtot1,0.265,1.71
+Blanket,supine,Rtot2,0.265,1.71
+Blanket,supine,Rtot3,0.275,1.77
+Blanket,supine,Rtot,0.268,1.73
+Blanket,supine,UR,0.015,0.1
+Summer duvet,supine,Rtot1,0.317,2.05
+Summer duvet,supine,Rtot2,0.311,2.01
+Summer duvet,supine,Rtot3,0.325,2.1
+Summer duvet,supine,Rtot,0.318,2.05
+Summer duvet,supine,UR,0.019,0.11
+Without cover,side,Rtot1,0.173,1.12
+Without cover,side,Rtot2,0.172,1.11
+Without cover,side,Rtot3,0.174,1.125
+Without cover,side,Rtot,0.173,1.12
+Without cover,side,UR,0.004,0.02
+Cotton cover,side,Rtot1,0.245,1.58
+Cotton cover,side,Rtot2,0.239,1.54
+Cotton cover,side,Rtot3,0.245,1.58
+Cotton cover,side,Rtot,0.243,1.57
+Cotton cover,side,UR,0.01,0.06
+Blanket,side,Rtot1,0.258,1.66
+Blanket,side,Rtot2,0.253,1.63
+Blanket,side,Rtot3,0.26,1.68
+Blanket,side,Rtot,0.257,1.66
+Blanket,side,UR,0.01,0.06
+Summer duvet,side,Rtot1,0.295,1.9
+Summer duvet,side,Rtot2,0.295,1.9
+Summer duvet,side,Rtot3,0.301,1.94
+Summer duvet,side,Rtot,0.297,1.92
+Summer duvet,side,UR,0.01,0.07

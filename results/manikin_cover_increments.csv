@@ -1,0 +1,9 @@
+set,posture,clo_total,increment
+Without cover,side,1.12,0.0
+Cotton cover,side,1.57,0.44999999999999996
+Blanket,side,1.66,0.5399999999999998
+Summer duvet,side,1.92,0.7999999999999998
+Without cover,supine,1.17,0.0
+Cotton cover,supine,1.64,0.47
+Blanket,supine,1.73,0.56
+Summer duvet,supine,2.05,0.8799999999999999

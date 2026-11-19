@@ -1,0 +1,13 @@
+validation,model,mae,within_1,mae_ci95,within_1_ci95
+building 5-fold,PMV (ISO 7730),1.3043693107932381,0.623753792804508,"[1.166, 1.421]","[0.572, 0.678]"
+building 5-fold,"PMV (ASHRAE 55, cooling effect)",1.08197225834417,0.7438231469440832,"[0.934, 1.207]","[0.690, 0.806]"
+building 5-fold,Linear (ridge),0.7599614761186791,0.8617251842219332,"[0.651, 0.853]","[0.815, 0.919]"
+building 5-fold,Quadratic (ridge),0.7604070679556402,0.8630255743389683,"[0.656, 0.851]","[0.817, 0.918]"
+building 5-fold,XGBoost,0.7610863369661873,0.8630255743389683,"[0.654, 0.852]","[0.814, 0.922]"
+building 5-fold,Predict training mean (reference),0.7908652902184772,0.8192457737321196,"[0.680, 0.898]","[0.767, 0.877]"
+leave-one-contributor-out,PMV (ISO 7730),1.3043693107932381,0.623753792804508,"[1.166, 1.421]","[0.572, 0.678]"
+leave-one-contributor-out,"PMV (ASHRAE 55, cooling effect)",1.08197225834417,0.7438231469440832,"[0.934, 1.207]","[0.690, 0.806]"
+leave-one-contributor-out,Linear (ridge),0.7703955419394392,0.8630255743389683,"[0.663, 0.866]","[0.814, 0.921]"
+leave-one-contributor-out,Quadratic (ridge),0.7765761393302079,0.8569570871261378,"[0.664, 0.872]","[0.813, 0.910]"
+leave-one-contributor-out,XGBoost,0.7913273010623385,0.8543563068920677,"[0.680, 0.890]","[0.809, 0.907]"
+leave-one-contributor-out,Predict training mean (reference),0.7908652902184772,0.8192457737321196,"[0.680, 0.898]","[0.767, 0.877]"

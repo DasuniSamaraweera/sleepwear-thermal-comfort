@@ -1,0 +1,15 @@
+step,rule,rows_before,rows_after,rows_dropped,buildings_after
+0. raw measurements joined with metadata,none,109033,109033,0,809
+1. quality assurance,metadata quality_assurance == 'pass',109033,108235,798,805
+2. hot-humid climate,climate in explicit hot-humid class list (config.HOT_HUMID_CLASSES),108235,38397,69838,350
+3. residential,building_type in ['multifamily housing'],38397,5211,33186,199
+4. low metabolic rate,met <= 1.3 (rows with missing met are dropped),5211,3356,1855,180
+5. complete cases: thermal_sensation,thermal_sensation is not missing,3356,3355,1,180
+5. complete cases: ta,ta is not missing,3355,3355,0,180
+5. complete cases: rh,rh is not missing,3355,3020,335,175
+5. complete cases: vel,vel is not missing,3020,2379,641,165
+5. complete cases: clo,clo is not missing,2379,2372,7,165
+6. plausible range: ta,15.0 <= ta <= 40.0,2372,2369,3,165
+6. plausible range: rh,10.0 <= rh <= 100.0,2369,2369,0,165
+6. plausible range: vel,0.0 <= vel <= 2.0,2369,2334,35,164
+6. plausible range: clo,0.1 <= clo <= 2.5,2334,2307,27,164

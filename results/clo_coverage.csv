@@ -1,0 +1,9 @@
+set,posture,clo_total,ashrae_rows_with_clo_ge_this,share
+Without cover,side,1.12,29,0.0126
+Cotton cover,side,1.57,15,0.0065
+Blanket,side,1.66,14,0.0061
+Summer duvet,side,1.92,11,0.0048
+Without cover,supine,1.17,29,0.0126
+Cotton cover,supine,1.64,14,0.0061
+Blanket,supine,1.73,13,0.0056
+Summer duvet,supine,2.05,11,0.0048

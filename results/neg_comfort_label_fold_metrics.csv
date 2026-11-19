@@ -1,0 +1,73 @@
+validation,model,task,fold,n,accuracy,macro_f1,roc_auc,mae,within_1
+building 5-fold,PMV (ISO 7730),comfort,0,160,0.55625,0.45486827582897454,0.6951724137931035,,
+building 5-fold,PMV (ISO 7730),comfort,1,843,0.4709371293001186,0.4487837346500745,0.5463989161786558,,
+building 5-fold,PMV (ISO 7730),comfort,2,209,0.5215311004784688,0.4155480984340045,0.4198079014135556,,
+building 5-fold,PMV (ISO 7730),comfort,3,561,0.44563279857397503,0.385113394068618,0.49651056014692374,,
+building 5-fold,PMV (ISO 7730),comfort,4,534,0.42696629213483145,0.42645138645138647,0.5717256103221015,,
+building 5-fold,"PMV (ASHRAE 55, cooling effect)",comfort,0,160,0.725,0.5703125,0.7248275862068966,,
+building 5-fold,"PMV (ASHRAE 55, cooling effect)",comfort,1,843,0.5551601423487544,0.49910873440285203,0.5601171226291408,,
+building 5-fold,"PMV (ASHRAE 55, cooling effect)",comfort,2,209,0.6746411483253588,0.49344168805246647,0.47390358825661466,,
+building 5-fold,"PMV (ASHRAE 55, cooling effect)",comfort,3,561,0.5686274509803921,0.45629084967320266,0.5245485154576064,,
+building 5-fold,"PMV (ASHRAE 55, cooling effect)",comfort,4,534,0.49063670411985016,0.4801059488868208,0.5969367864104707,,
+building 5-fold,Logistic regression (linear),comfort,0,160,0.90625,0.47540983606557374,0.5981609195402299,,
+building 5-fold,Logistic regression (linear),comfort,1,843,0.7983392645314353,0.44393139841688656,0.5641115287125251,,
+building 5-fold,Logistic regression (linear),comfort,2,209,0.8516746411483254,0.4599483204134367,0.4008698803914462,,
+building 5-fold,Logistic regression (linear),comfort,3,561,0.8823529411764706,0.46875,0.6320477502295683,,
+building 5-fold,Logistic regression (linear),comfort,4,534,0.7471910112359551,0.42765273311897106,0.5064234660725889,,
+building 5-fold,Logistic regression (quadratic),comfort,0,160,0.89375,0.524392376289561,0.5554022988505748,,
+building 5-fold,Logistic regression (quadratic),comfort,1,843,0.7983392645314353,0.4607540638169777,0.6301547067564024,,
+building 5-fold,Logistic regression (quadratic),comfort,2,209,0.8516746411483254,0.4599483204134367,0.6277636824936571,,
+building 5-fold,Logistic regression (quadratic),comfort,3,561,0.8841354723707665,0.4841196859305369,0.6842056932966023,,
+building 5-fold,Logistic regression (quadratic),comfort,4,534,0.7453183520599251,0.44100985221674877,0.5852315975122993,,
+building 5-fold,XGBoost,comfort,0,160,0.9,0.47368421052631576,0.7144827586206897,,
+building 5-fold,XGBoost,comfort,1,843,0.7995255041518387,0.45571138762707786,0.6224149986889258,,
+building 5-fold,XGBoost,comfort,2,209,0.8516746411483254,0.4599483204134367,0.5944182674882204,,
+building 5-fold,XGBoost,comfort,3,561,0.8823529411764706,0.46875,0.6814814814814815,,
+building 5-fold,XGBoost,comfort,4,534,0.7490636704119851,0.44923029556650246,0.5789009560939384,,
+building 5-fold,Linear (ridge),sensation,0,160,,,,0.656487289092998,0.91875
+building 5-fold,Linear (ridge),sensation,1,843,,,,0.7868401250851765,0.8410438908659549
+building 5-fold,Linear (ridge),sensation,2,209,,,,0.6420007365378789,0.9282296650717703
+building 5-fold,Linear (ridge),sensation,3,561,,,,0.7047936294492098,0.9019607843137255
+building 5-fold,Linear (ridge),sensation,4,534,,,,0.8650317691880949,0.8014981273408239
+building 5-fold,Quadratic (ridge),sensation,0,160,,,,0.6602997571481513,0.91875
+building 5-fold,Quadratic (ridge),sensation,1,843,,,,0.7864221899719698,0.8386714116251482
+building 5-fold,Quadratic (ridge),sensation,2,209,,,,0.6437121921622988,0.9186602870813397
+building 5-fold,Quadratic (ridge),sensation,3,561,,,,0.6961087043625377,0.9073083778966132
+building 5-fold,Quadratic (ridge),sensation,4,534,,,,0.8641123250184682,0.8089887640449438
+building 5-fold,XGBoost,sensation,0,160,,,,0.6457235886337003,0.925
+building 5-fold,XGBoost,sensation,1,843,,,,0.7943784459328339,0.8398576512455516
+building 5-fold,XGBoost,sensation,2,209,,,,0.63545337686333,0.9186602870813397
+building 5-fold,XGBoost,sensation,3,561,,,,0.6910712332966938,0.9197860962566845
+building 5-fold,XGBoost,sensation,4,534,,,,0.8708754508016624,0.8071161048689138
+leave-one-contributor-out,PMV (ISO 7730),comfort,0,839,0.39451728247914186,0.39320615034168566,0.5420993148265876,,
+leave-one-contributor-out,PMV (ISO 7730),comfort,1,446,0.5919282511210763,0.48126278118609406,0.7417547115933752,,
+leave-one-contributor-out,PMV (ISO 7730),comfort,2,895,0.4960893854748603,0.397527691083777,0.40634212033168626,,
+leave-one-contributor-out,PMV (ISO 7730),comfort,3,127,0.2677165354330709,0.263148044169942,0.5194444444444445,,
+leave-one-contributor-out,"PMV (ASHRAE 55, cooling effect)",comfort,0,839,0.44815256257449343,0.44492265923623764,0.5455251818888183,,
+leave-one-contributor-out,"PMV (ASHRAE 55, cooling effect)",comfort,1,446,0.6748878923766816,0.5169951677110485,0.6935679611650486,,
+leave-one-contributor-out,"PMV (ASHRAE 55, cooling effect)",comfort,2,895,0.6614525139664804,0.4889328621908128,0.4747364960872055,,
+leave-one-contributor-out,"PMV (ASHRAE 55, cooling effect)",comfort,3,127,0.29133858267716534,0.29023845007451565,0.525,,
+leave-one-contributor-out,Logistic regression (linear),comfort,0,839,0.7210965435041716,0.41897506925207756,0.46942855124673305,,
+leave-one-contributor-out,Logistic regression (linear),comfort,1,446,0.9237668161434978,0.4801864801864802,0.41619074814391777,,
+leave-one-contributor-out,Logistic regression (linear),comfort,2,895,0.8636871508379889,0.4634292565947242,0.2953470616927873,,
+leave-one-contributor-out,Logistic regression (linear),comfort,3,127,0.7874015748031497,0.44052863436123346,0.5142592592592592,,
+leave-one-contributor-out,Logistic regression (quadratic),comfort,0,839,0.7210965435041716,0.4230999788429441,0.5421416966871513,,
+leave-one-contributor-out,Logistic regression (quadratic),comfort,1,446,0.9237668161434978,0.4801864801864802,0.5331239291833239,,
+leave-one-contributor-out,Logistic regression (quadratic),comfort,2,895,0.8636871508379889,0.4634292565947242,0.41423663393633486,,
+leave-one-contributor-out,Logistic regression (quadratic),comfort,3,127,0.7874015748031497,0.47448275862068967,0.5083333333333333,,
+leave-one-contributor-out,XGBoost,comfort,0,839,0.7210965435041716,0.42715336134453785,0.5248216430034611,,
+leave-one-contributor-out,XGBoost,comfort,1,446,0.9237668161434978,0.4801864801864802,0.5435465448315249,,
+leave-one-contributor-out,XGBoost,comfort,2,895,0.8636871508379889,0.4634292565947242,0.3581532458168092,,
+leave-one-contributor-out,XGBoost,comfort,3,127,0.7244094488188977,0.469886702444842,0.5103703703703704,,
+leave-one-contributor-out,Linear (ridge),sensation,0,839,,,,0.9470506913212218,0.7592371871275327
+leave-one-contributor-out,Linear (ridge),sensation,1,446,,,,0.6162354052966145,0.9417040358744395
+leave-one-contributor-out,Linear (ridge),sensation,2,895,,,,0.6763416517177567,0.9217877094972067
+leave-one-contributor-out,Linear (ridge),sensation,3,127,,,,0.8075607573708569,0.8582677165354331
+leave-one-contributor-out,Quadratic (ridge),sensation,0,839,,,,0.9643748739539426,0.7651966626936829
+leave-one-contributor-out,Quadratic (ridge),sensation,1,446,,,,0.6277245405488923,0.9304932735426009
+leave-one-contributor-out,Quadratic (ridge),sensation,2,895,,,,0.6633013972330479,0.9072625698324023
+leave-one-contributor-out,Quadratic (ridge),sensation,3,127,,,,0.8569349494413213,0.8503937007874016
+leave-one-contributor-out,XGBoost,sensation,0,839,,,,0.9794729308828659,0.7592371871275327
+leave-one-contributor-out,XGBoost,sensation,1,446,,,,0.629156844077565,0.9372197309417041
+leave-one-contributor-out,XGBoost,sensation,2,895,,,,0.685206864472718,0.9039106145251397
+leave-one-contributor-out,XGBoost,sensation,3,127,,,,0.8657495935308183,0.84251968503937

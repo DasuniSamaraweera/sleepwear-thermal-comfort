@@ -1,0 +1,9 @@
+set,posture,rtot_m2K_per_W,clo_total,clo_uncertainty
+Without cover,side,0.173,1.12,0.02
+Cotton cover,side,0.243,1.57,0.06
+Blanket,side,0.257,1.66,0.06
+Summer duvet,side,0.297,1.92,0.07
+Without cover,supine,0.181,1.17,0.03
+Cotton cover,supine,0.254,1.64,0.1
+Blanket,supine,0.268,1.73,0.1
+Summer duvet,supine,0.318,2.05,0.11

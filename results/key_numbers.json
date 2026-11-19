@@ -1,0 +1,94 @@
+{
+  "n_rows": 2307,
+  "n_buildings": 164,
+  "warm_prevalence": 0.270914607715648,
+  "primary_model": "Logistic regression (linear)",
+  "final_params": {
+    "Logistic regression (linear)": {
+      "logisticregression__C": 0.03
+    },
+    "XGBoost": {
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  "fan": {
+    "no fan": 0.09,
+    "fan": 0.4,
+    "n_no_fan": 509,
+    "n_fan": 1669
+  },
+  "clo_quantiles": {
+    "p25": 0.27,
+    "p50": 0.37,
+    "p75": 0.51,
+    "p95": 0.78,
+    "p99": 1.2882000000000016
+  },
+  "support_29_85": {
+    "no fan": {
+      "rows_within_1C_and_7pctRH": 202,
+      "rows_within_1C_7pctRH_and_vel_within_0.2": 78,
+      "rows_met_le_0.8": 142
+    },
+    "fan": {
+      "rows_within_1C_and_7pctRH": 202,
+      "rows_within_1C_7pctRH_and_vel_within_0.2": 95,
+      "rows_met_le_0.8": 142
+    }
+  },
+  "limits_29_85": {
+    "no fan": {
+      "p_warm__Logistic regression (linear)": {
+        "highest_clo": 1.12,
+        "beyond_data_range": false
+      },
+      "p_warm__XGBoost": {
+        "highest_clo": 2.5,
+        "beyond_data_range": true
+      },
+      "pmv_iso": {
+        "highest_clo": 0.58,
+        "beyond_data_range": false
+      },
+      "pmv_ashrae": {
+        "highest_clo": 0.58,
+        "beyond_data_range": false
+      }
+    },
+    "fan": {
+      "p_warm__Logistic regression (linear)": {
+        "highest_clo": 1.94,
+        "beyond_data_range": true
+      },
+      "p_warm__XGBoost": {
+        "highest_clo": 2.5,
+        "beyond_data_range": true
+      },
+      "pmv_iso": {
+        "highest_clo": 0.83,
+        "beyond_data_range": false
+      },
+      "pmv_ashrae": {
+        "highest_clo": 0.94,
+        "beyond_data_range": false
+      }
+    }
+  },
+  "boot_29_85": {
+    "no fan": {
+      "limit_median": 1.15,
+      "limit_lo": 0.367,
+      "limit_hi": 2.5,
+      "share_none": 0.015,
+      "share_at_grid_top": 0.15
+    },
+    "fan": {
+      "limit_median": 1.95,
+      "limit_lo": 0.9995,
+      "limit_hi": 2.5,
+      "share_none": 0.0,
+      "share_at_grid_top": 0.315
+    }
+  }
+}
