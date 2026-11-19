@@ -1,5 +1,7 @@
 # Nocturnal thermal comfort of sleepwear in hot-humid climates
 
+![What if we've been designing sleepwear the wrong way?](images/banner.png)
+
 A data-driven look at how clothing insulation, bedding, room temperature, humidity and air movement relate to feeling too warm in
 hot-humid homes, built only from two open datasets. Everything is reproducible from a single Colab notebook.
 
